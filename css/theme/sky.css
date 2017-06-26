@@ -3,7 +3,7 @@
  *
  * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
 .reveal a {
   line-height: 1.3em; }
@@ -48,11 +48,11 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #333;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: normal;
   line-height: 1.2;
-  letter-spacing: -0.08em;
-  text-transform: uppercase;
+  letter-spacing: 0.00em;
+  text-transform: none;
   text-shadow: none;
   word-wrap: break-word; }
 
@@ -87,7 +87,8 @@ body {
 
 .reveal strong,
 .reveal b {
-  font-weight: bold; }
+  font-weight: bold; 
+  color: #134674;}
 
 .reveal em {
   font-style: italic; }
@@ -143,7 +144,8 @@ body {
   display: inline-block; }
 
 .reveal q {
-  font-style: italic; }
+  font-style: italic; 
+  color: #134674;}
 
 .reveal pre {
   display: block;
